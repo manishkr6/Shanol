@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#31449A"/>
+      <stop offset="100%" stop-color="#18214D"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5AB"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8901F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#blueGrad)" stroke="url(#goldGrad)" stroke-width="2.5"/>
+  <circle cx="50" cy="50" r="42" fill="none" stroke="url(#goldGrad)" stroke-width="0.75" stroke-dasharray="3,2"/>
+  <path d="M50 18 L53 25 L61 26 L55 31 L57 39 L50 34 L43 39 L45 31 L39 26 L47 25 Z" fill="url(#goldGrad)" opacity="0.9"/>
+  <!-- Elegant Letter S -->
+  <text x="50" y="70" font-family="'Playfair Display', Georgia, serif" font-size="44" font-weight="700" fill="url(#goldGrad)" text-anchor="middle" dominant-baseline="alphabetic">S</text>
+  <text x="50" y="85" font-family="'Plus Jakarta Sans', sans-serif" font-size="7" font-weight="600" fill="#FDF1D2" letter-spacing="2.5" text-anchor="middle">SHANOL</text>
+</svg>
